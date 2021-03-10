@@ -1,0 +1,98 @@
+.AccountInfoLabel{
+    width: 200px;
+    padding: 15px;
+    background-color: #e68302;
+    border-style: solid;
+    border-color: #f8e327;
+    border-bottom : 0px;
+    border-left-width : 3px;
+    border-right-width : 3px;
+    border-top-width : 3px;
+    margin-left: 0;
+    font-size: 20px;
+  
+}
+.AccountInfoLabel_data{
+    width: 200px;
+    padding: 15px;
+    background-color: #e68302;
+    border-style: solid;
+    border-color: #f8e327;
+    border-bottom : 3px;
+    border-left-width : 3px;
+    border-right-width : 3px;
+    border-top-width : 0px;
+    margin-left: 0;
+    font-size: 20px;
+}
+.Formlabels{
+    border: 3px solid #f8e327;
+    background-color: #f7df9e73;
+
+}
+table{
+    width: 100%;
+}
+td{
+    max-width: 16.66%;
+
+}
+td{
+    padding: 15px;
+}
+td:nth-child(odd){
+    text-align: left;
+    padding-left: 15px;
+}
+td:nth-child(even){
+    text-align: right;
+}
+.Label{
+    color: black;
+    font-size: large;
+    max-width: 100%;
+}
+.Forminput{
+    padding: 0;
+    margin: 0;
+    background-color: #e5e2e2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+.grid_wrapper{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: center;
+}
+.grid_coloums{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    width: 100%;
+    height: 50px;
+    /* background-color: hotpink; */
+    text-align: center;
+    
+}
+.grid_coloums_switch{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    width: 100%;
+    height: 50px;
+    /* background-color: hotpink; */
+    
+}
+.Switch{
+    border: 1px solid gray;
+    position: relative;
+    top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: -9px;
+    margin-left: 1px;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 5px;
+    
+}
